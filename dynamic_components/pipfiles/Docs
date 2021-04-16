@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sphinx-gallery = "*"
+nbsphinx = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.8"

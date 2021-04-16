@@ -1,0 +1,12 @@
+# CONFIGURE YOUR PROJECT SPECS HERE! 
+PROJECT="zz-project"
+AUTHOR="O. KAUFMANN"
+CONTRIBUTORS=" "
+YEAR="$(date +%Y)"
+VERSION="0.1"
+REPO="github.com:kaufmanno/$PROJECT"
+REMOTEMASTER="https://github.com/kaufmanno/$PROJECT/blob/master"
+PIPFILE='Docs'
+ACTIVATEPIPENV=1
+CLEANUP=1
+ENTERPROJECT=1
