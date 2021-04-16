@@ -7,7 +7,7 @@ Documentation
 .. raw:: html
 
     <div class="banner">
-        <h2>{@@@ A relevant title giving a short description of the purpose of make_project} </h2>
+        <h2>Start developping a python package or application in a minute</h2>
         <a href="./examples/index.html"><img src="_static/banner_small.png" alt="make_project" width="100%"/></a>
     </div>
 
@@ -30,18 +30,22 @@ Documentation
 About
 """""
 
-make_project is {...}.
+make_project is a way to quickly setup a environment to develop a project with python.
+make_project will
 
-* {@@@ Include main descriptors of make_project here}
-* {@@@ For example what it does}
-* {@@@ Based on which principles}
-* {@@@ And for with kind of applications}
+* create a directory for the project
+* make it a git repository
+* copy and customize files for starting writing a python package or application
+* create a Pipfile and install packages
+* create the structures needed to document this project with sphinx with the readthedocs theme
+* create an example core package and corresponding tests using pytest
+* provide example galleries based on jupyter notebooks
+* make an initial commit to a remote repository
+* prepare for publishing documentation on the readthedocs.org website
+* activate the virtual environment
+ 
 
-make_project is {...} that {...}.
-This package provides a Pythonic, well-documented interface exposing
-{...} to facilitate {...}.
-
-This package can be used for {...}.
+make_project uses the config.sh script to to setup the main project properties such as its name or remote git repository.
 
 Author
 """"""
