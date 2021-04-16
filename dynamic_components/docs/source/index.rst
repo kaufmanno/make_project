@@ -15,6 +15,13 @@ Documentation
    :target: https://www.gnu.org/licenses/gpl-3.0
 
 
+
+.. |rtd| image:: https://readthedocs.org/projects/{project}/badge/?version=latest
+   :target: https://{project}.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
++----------------------+------------------------+
+| Documentation        | |rtd|                  |
 +----------------------+------------------------+
 | License              | |GPLv3|                |
 +----------------------+------------------------+
@@ -32,7 +39,7 @@ About
 * {@@@ Based on which principles}
 * {@@@ And for with kind of applications}
 
-{project] is {...} that {...}.
+{project} is {...} that {...}.
 This package provides a Pythonic, well-documented interface exposing
 {...} to facilitate {...}.
 

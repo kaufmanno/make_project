@@ -14,7 +14,12 @@ Documentation
 .. |GPLv3| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
    :target: https://www.gnu.org/licenses/gpl-3.0
 
+.. |rtd| image:: https://readthedocs.org/projects/make_project/badge/?version=latest
+   :target: https://make_project.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
 
++----------------------+------------------------+
+| Documentation        | |rtd|                  |
 +----------------------+------------------------+
 | License              | |GPLv3|                |
 +----------------------+------------------------+
@@ -32,7 +37,7 @@ make_project is {...}.
 * {@@@ Based on which principles}
 * {@@@ And for with kind of applications}
 
-{project] is {...} that {...}.
+make_project is {...} that {...}.
 This package provides a Pythonic, well-documented interface exposing
 {...} to facilitate {...}.
 
