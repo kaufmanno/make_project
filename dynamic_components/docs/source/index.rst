@@ -14,11 +14,10 @@ Documentation
 .. |GPLv3| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
    :target: https://www.gnu.org/licenses/gpl-3.0
 
-
-
-.. |rtd| image:: https://readthedocs.org/projects/{project}/badge/?version=latest
-   :target: https://{project}.readthedocs.io/en/latest/?badge=latest
+.. |rtd| image:: https://readthedocs.org/projects/{rtdname}/badge/?version=latest
+   :target: https://{rtdname}.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
+
 
 +----------------------+------------------------+
 | Documentation        | |rtd|                  |

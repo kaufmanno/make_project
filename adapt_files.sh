@@ -75,7 +75,8 @@ if item_in_array all_specs $spec; then
     declare -a FileParts=("HEADER.md" "TOC.md" "DESCRIPTION.md" "PREREQUISITES.md" "INSTALLATION.md" 
                           "CONTRIBUTING.md" "LICENSE.md" "CITATION.md" "CONTACT.md")
 
-    declare -a Substitutes=("{project}" "{author}" "{year}" "{version}" "{repo}" "{remotemaster}" "{contributors}")
+    declare -a Substitutes=("{project}" "{author}" "{year}" "{version}" "{repo}" "{remotemaster}" 
+                            "{contributors}" "{rtdname}")
 
     # Iterate the string array using for loop
     for i in ${FileParts[@]}; do
