@@ -9,3 +9,5 @@ make html
 cd "$CWD"
 firefox "file://$DCD/build/html/index.html"
 git add "$DCD/*"
+git commit -m "Build docs"
+git push
