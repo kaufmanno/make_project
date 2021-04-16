@@ -25,7 +25,11 @@ if [[ "$CREATE" == "Yes" ]]; then
     fi
     echo -e "\nIf everything went well, you may create a requirements.txt file and test building the docs with bash quickstart.sh\n"
 
-    echo -e "\nTo create the documentation in reathedocs.org, sign-in the readthedocs.org import the project from its repo.\nYou may configure the documentation build by altering the .readthedocs.yaml file" 
+    echo -e "\nTo create the documentation in reathedocs.org:\n"
+            "1. Add and push the modifications created from quickstart.sh to the remote repository\n"
+            "2. Sign-in the readthedocs.org and import the project from its repo\n(you may configure a webhook to your remote repository or use manual build).\n"
+            "3. Build within readthedocs.org and check that it is passing\n"
+            "Rem: You may configure the documentation build by altering the .readthedocs.yaml file" 
     # Enter project
     ##########################################################################################
     if [ $ENTERPROJECT = 1 ]; then
