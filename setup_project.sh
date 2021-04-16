@@ -65,7 +65,7 @@ cd "$PJD"
 
 # Add last files to git and make an initial commit
 ##########################################################################################
-git add .gitignore .env .readthedocs.yaml build_docs.sh core/* uml_diagrams/*
+git add .gitignore .env .readthedocs.yaml build_docs.sh core/* tests/* uml_diagrams/*
 
 git commit -m 'Initial commit with make_project'
 

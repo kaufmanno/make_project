@@ -54,4 +54,5 @@ def fake_function(text='Hello World!'):
 
     text = text.capitalize()
     print(text)
-    return(text)
+    return text
+

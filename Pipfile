@@ -15,6 +15,7 @@ sphinx-rtd-theme = "*"
 sphinx-gallery = "*"
 nbsphinx = "*"
 pylint = "*"
+pytest = "*"
 
 [requires]
 python_version = "3.8"
