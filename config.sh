@@ -1,5 +1,5 @@
 # CONFIGURE YOUR PROJECT SPECS HERE! 
-PROJECT="zz-project"
+PROJECT="zz_project"
 AUTHOR="O. KAUFMANN"
 CONTRIBUTORS=" "
 YEAR="$(date +%Y)"

@@ -127,7 +127,7 @@ pandoc "$TPD/INSTALLATION.md" --from markdown --to rst -s -o "$TPD/installation.
 replace_in_file "$TPD/installation.rst" "| $ " "   $ "  # workaround because pandoc conversion of code-block fails
 cp "$TPD/installation.rst" "$PJD/docs/source"
 
-git add "$PJD/docs/source/installation.rst"
+git add "$PJD/docs/source/installation.rst" "$PJD/docs/source/description.rst"
 
 echo -e "\n${k}. Default dynamic files adapted and created.\n"
 ((k = k + 1))
