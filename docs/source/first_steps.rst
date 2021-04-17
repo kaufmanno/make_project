@@ -57,7 +57,7 @@ You could start by editing the fake class and function in core/core.py.
 Make sure to document your code using numpy style docstrings. 
 
 You should also modify the unit test accordingly (by default pytest is used). 
-If you create new test files make sure to namee put them in the tests directory and name them like "test_*.py".  
+If you create new test files make sure to put them in the tests directory and name them following this pattern: "test_*.py".  
 
 You may check that all tests pass with the following command:
 
