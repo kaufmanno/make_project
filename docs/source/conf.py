@@ -44,7 +44,7 @@ release = RELEASE
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.napoleon', 'sphinx_rtd_theme', 'nbsphinx', 'sphinx_gallery.load_style',
               'sphinx.ext.graphviz']
 
-nbsphinx_execute = 'auto'
+nbsphinx_execute = 'always'
 
 # Napoleon settings
 napoleon_google_docstring = False
