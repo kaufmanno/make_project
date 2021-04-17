@@ -25,7 +25,7 @@ At this point, you should launch the quickstart script to generate a first versi
 
    . quickstart.sh
 
-When the documentation is built, it will be commited to your local git repository and a page will open in your browser (local version of the documentation).
+Before building the documentation, the code is tested by running pytest on test files stored in the tests directory. When the documentation is built, it will be commited to your local git repository and a page will open in your browser (local version of the documentation).
 If you are using a remote repository, the changes will be pushed to this repository (if you don't want to use a remote repo, you should edit the build_docs.sh script and comment the line with the push command".
 
 
@@ -53,7 +53,7 @@ Start developping your project
 
 You are now ready to start developping your package or application. You could start to edit the fake class and function in core/core.py. 
 Make sure to document your code using numpy style docstrings. 
-You should also modify the unit test accordingly (by default pytest is used).
+You should also modify the unit test accordingly (by default pytest is used). If you create new test files make sure to namee put them in the tests directory and name them like "test_*.py"
 Once this is done, add your modifications to a commit with commands like this one:
 
 .. code-block:: bash
