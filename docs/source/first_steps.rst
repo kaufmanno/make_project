@@ -52,7 +52,7 @@ Start developping your project
 ------------------------------
 
 You are now ready to start developping your package or application.  
-You could start to edit the fake class and function in core/core.py. 
+You could start by editing the fake class and function in core/core.py. 
 
 Make sure to document your code using numpy style docstrings. 
 
