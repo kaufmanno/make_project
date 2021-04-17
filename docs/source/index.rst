@@ -53,7 +53,7 @@ O. KAUFMANN
 
 Contributors
 """"""""""""
-   
+Be the first one !    
 
 .. toctree::
    :maxdepth: 1
