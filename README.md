@@ -1,5 +1,7 @@
 # nQb8or  
 ### O. KAUFMANN, 2021.  
+
+nQb8or is a way to quickly setup an environment to develop a package or application with python under linux using bas shell scripts.
   
 ## Table of Contents
 1. [Description of the project](#Description-of-the-project)
@@ -12,7 +14,29 @@
 
 ## Description of the project <a name="Description-of-the-project"></a>
 
-@@@ Please insert a project description here!  
+nQb8or will
+
+    create a directory for the project
+
+    make it a git repository
+
+    copy and customize files to quickly start writing a python package or application
+
+    create a Pipfile and install packages
+
+    create the structures needed to document this project with sphinx with the readthedocs theme
+
+    create an example core package and corresponding tests using pytest
+
+    provide example galleries based on jupyter notebooks
+
+    make an initial commit to a remote repository
+
+    prepare for publishing documentation on the readthedocs.org website
+
+    activate the virtual environment
+
+nQb8or uses the config.sh script to setup the main project properties such as its name or remote git repository.  
 
 ## Prerequisites <a name="Prerequisites"></a>
 
@@ -49,8 +73,9 @@ The license of the project is avalaible on the [license](https://github.com/kauf
 
 ## Citation <a name="Citation"></a>
 
-@@@ Please provide a citation here!  
+If you are using nQb8or to develop your project please add a reference to the [nQb8or](https://github.com/kaufmanno/nQb8or) in your documentation.  
 
 ## Contact <a name="Contact"></a>
 
 We are interested in your feedback. Please create issues for bug reports, suggestions, PR and questions.  
+

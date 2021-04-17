@@ -27,7 +27,7 @@ Documentation
 About
 """""
 
-nQb8or is a way to quickly setup an environment to develop a package or application with python under linux. It uses bash shell scripts.  
+nQb8or is a way to quickly setup an environment to develop a package or application with python under linux using bash shell scripts.  
 
 .. note:: some parts of this documentations such as the examples and the API reference are default features of the projects generated with nQb8or. 
 
