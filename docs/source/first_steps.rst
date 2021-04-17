@@ -53,9 +53,12 @@ Start developping your project
 
 You are now ready to start developping your package or application.  
 You could start to edit the fake class and function in core/core.py. 
+
 Make sure to document your code using numpy style docstrings. 
+
 You should also modify the unit test accordingly (by default pytest is used). 
 If you create new test files make sure to namee put them in the tests directory and name them like "test_*.py".  
+
 You may check that all tests pass with the following command:
 
 .. code-block:: bash
