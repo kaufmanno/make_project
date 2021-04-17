@@ -37,7 +37,7 @@ Then you may create a cool logo for your project. The logo that should be copied
 A similar thing may be done for the welcome banner.
 Once this is done, you should rebuild the documentation using the following command in the terminal:
 
-.. code-block:: bask
+.. code-block:: bash
 
    . build_docs.sh
 
