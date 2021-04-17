@@ -29,7 +29,7 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="python_incubator_logo.svg"
+   sodipodi:docname="nQb8or_logo.svg"
    version="1.0"
    inkscape:export-filename="/home/su530201/PycharmProjects/make_project/docs/source/_static/logo.png"
    inkscape:export-xdpi="95.852768"
@@ -206,7 +206,79 @@
      mode="screen"
      in="fbSourceGraphic"
      in2="result91"
-     id="feBlend1875" /></svg:filter></svg:defs><sodipodi:namedview
+     id="feBlend1875" /></svg:filter><svg:linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient4689"
+   id="linearGradient8697-0"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(1.7729909,0,0,1.7729909,60.65314,-153.81215)"
+   x1="172.94208"
+   y1="77.475983"
+   x2="26.670298"
+   y2="76.313133" /><svg:filter
+   inkscape:label="Dragee"
+   inkscape:menu="Ridges"
+   inkscape:menu-tooltip="Gel Ridge with a pearlescent look"
+   height="1.5"
+   width="1.5"
+   y="-0.25"
+   x="-0.25"
+   style="color-interpolation-filters:sRGB;"
+   id="filter2568"><svg:feGaussianBlur
+     stdDeviation="0.01"
+     result="result1"
+     id="feGaussianBlur2544" /><svg:feBlend
+     in="result1"
+     mode="screen"
+     result="result5"
+     in2="result1"
+     id="feBlend2546" /><svg:feGaussianBlur
+     stdDeviation="6"
+     result="result6"
+     id="feGaussianBlur2548" /><svg:feComposite
+     operator="xor"
+     result="fbSourceGraphic"
+     in="result6"
+     in2="result6"
+     id="feComposite2550" /><svg:feColorMatrix
+     result="fbSourceGraphicAlpha"
+     in="fbSourceGraphic"
+     values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 2 0 "
+     id="feColorMatrix2552" /><svg:feGaussianBlur
+     result="result0"
+     in="fbSourceGraphicAlpha"
+     stdDeviation="2"
+     id="feGaussianBlur2554" /><svg:feSpecularLighting
+     specularExponent="35"
+     specularConstant="1"
+     surfaceScale="3"
+     lighting-color="rgb(255,255,255)"
+     result="result1"
+     in="result0"
+     id="feSpecularLighting2558"><svg:feDistantLight
+       azimuth="235"
+       elevation="55"
+       id="feDistantLight2556" /></svg:feSpecularLighting><svg:feComposite
+     operator="in"
+     result="result2"
+     in="result1"
+     in2="fbSourceGraphicAlpha"
+     id="feComposite2560" /><svg:feComposite
+     k3="1"
+     k2="1"
+     operator="arithmetic"
+     result="result4"
+     in="fbSourceGraphic"
+     in2="result2"
+     id="feComposite2562" /><svg:feComposite
+     operator="out"
+     in="result9"
+     in2="result4"
+     result="result91"
+     id="feComposite2564" /><svg:feBlend
+     mode="multiply"
+     in2="result91"
+     id="feBlend2566" /></svg:filter></svg:defs><sodipodi:namedview
    inkscape:window-height="1025"
    inkscape:window-width="1873"
    inkscape:pageshadow="2"
@@ -461,7 +533,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 <cc:Work
    rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-     rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></svg:metadata></x:xmpmeta>
+     rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></svg:metadata></x:xmpmeta>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <xpacket />
 			</svg:metadata>
 		<svg:g
@@ -811,6 +883,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -868,6 +941,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">10</svg:tspan></svg:text>
+
 
 
 
@@ -949,6 +1023,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1006,6 +1081,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">40</svg:tspan></svg:text>
+
 
 
 
@@ -1087,6 +1163,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1144,6 +1221,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="4"
      y="0"
      x="0">45</svg:tspan></svg:text>
+
 
 
 
@@ -1325,6 +1403,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1382,6 +1461,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">140</svg:tspan></svg:text>
+
 
 
 
@@ -1463,6 +1543,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1520,6 +1601,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -1813,6 +1895,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -1978,6 +2061,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2057,6 +2141,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="12.168"
      x="0">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -2169,6 +2254,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -2236,6 +2322,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">designed by Pollenation Internet Ltd</svg:tspan></svg:text>
+
 
 
 
@@ -2620,6 +2707,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2677,6 +2765,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">10</svg:tspan></svg:text>
+
 
 
 
@@ -2750,6 +2839,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2807,6 +2897,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">40</svg:tspan></svg:text>
+
 
 
 
@@ -2880,6 +2971,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2937,6 +3029,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:4px;font-family:Verdana;fill:#cccccc">45</svg:tspan></svg:text>
+
 
 
 
@@ -3110,6 +3203,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -3167,6 +3261,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">140</svg:tspan></svg:text>
+
 
 
 
@@ -3240,6 +3335,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -3297,6 +3393,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -3582,6 +3679,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -3743,6 +3841,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -3822,6 +3921,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="12.168"
      x="0"
      style="font-size:5px;font-family:CourierNew-Bold;fill:#446785">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -3926,6 +4026,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -3993,6 +4094,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#b4b4b4">designed by Pollenation Internet Ltd</svg:tspan></svg:text>
+
 
 
 
@@ -4380,6 +4482,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4437,6 +4540,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">10</svg:tspan></svg:text>
+
 
 
 
@@ -4514,6 +4618,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4571,6 +4676,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">40</svg:tspan></svg:text>
+
 
 
 
@@ -4648,6 +4754,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4705,6 +4812,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="4"
      y="0"
      x="0">45</svg:tspan></svg:text>
+
 
 
 
@@ -4882,6 +4990,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4939,6 +5048,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">140</svg:tspan></svg:text>
+
 
 
 
@@ -5016,6 +5126,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -5073,6 +5184,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -5362,6 +5474,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -5525,6 +5638,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -5604,6 +5718,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="12.168"
      x="0">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -5712,6 +5827,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -5789,6 +5905,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -5823,22 +5940,11 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
    i:knockout="Off" />
 				</svg:g><svg:path
    inkscape:connector-curvature="0"
-   style="fill:url(#linearGradient8697);fill-opacity:1;stroke-width:1.77299094"
-   i:knockout="Off"
-   d="m 198.76612,-75.715498 c 0,-24.15319 6.47631,-37.293532 42.23679,-43.550832 24.27835,-4.25496 55.40844,-4.78684 84.44232,0 22.93302,3.78566 42.23679,20.868107 42.23679,43.550832 V 3.9712638 c 0,23.3710352 -24.72385,54.7720272 -46.80167,46.7321202 L 233.51914,18.88974 C 198.12237,5.9995755 198.1928,88.488996 174.876,41.855395 c -11.6584,-23.3168 -23.3168,11.6584 -51.09146,47.49436 -4.98147,6.427288 -5.8797,-7.889834 -7.20054,-12.519154 -6.18061,-21.66202 -10.05054,-35.659663 -2.29149,-67.5406302 6.72661,-27.8137078 28.22045,-42.4870878 52.78037,-42.4870878 h 31.69324 84.47359 v -10.637414 h -84.47359 z"
-   id="path7990"
-   sodipodi:nodetypes="sccsssscsacsccccs" /><svg:path
-   inkscape:connector-curvature="0"
    style="fill:#ffe873;fill-opacity:1;stroke-width:1.77299094"
    i:knockout="Off"
    d="m 396.3856,289.01348 c -62.62488,38.70431 -154.59916,43.60746 -209.8512,0 C 131.28236,245.40602 116.584,191.08292 116.93446,147.00381 116.584,111.8058 128.2424,100.1474 160.14645,54.566608 c 10.55671,-15.082192 15.66872,39.8584 28.76258,25.437631 21.29925,-23.457679 20.94217,-49.807244 44.25897,-49.807238 23.3168,6e-6 92.42368,46.633597 116.15508,25.494184 18.87655,-16.81481 28.93379,-37.15259 28.93379,-51.7199212 V -33.197117 C 443.0192,6.8802016 466.336,74.49892 466.336,144.44932 c 0,46.63361 -7.32552,105.85985 -69.9504,144.56416 z"
    id="path7992"
-   sodipodi:nodetypes="zzcsssssccz" /><svg:path
-   inkscape:connector-curvature="0"
-   style="fill:#ffffff;stroke-width:1.77299094"
-   i:knockout="Off"
-   d="m 219.88452,-81.002929 c 0,-8.822793 7.07076,-15.956121 15.83098,-15.956121 8.72893,0 15.83097,7.133328 15.83097,15.956121 0,8.791518 -7.10204,15.924846 -15.83097,15.924846 -8.76022,0 -15.83098,-7.133328 -15.83098,-15.924846 z"
-   id="path7994" /><svg:g
+   sodipodi:nodetypes="zzcsssssccz" /><svg:g
    display="none"
    i:rgbTrio="#4F008000FFFF"
    i:dimmedPercent="100"
@@ -6175,6 +6281,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6232,6 +6339,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">10</svg:tspan></svg:text>
+
 
 
 
@@ -6301,6 +6409,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6358,6 +6467,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">40</svg:tspan></svg:text>
+
 
 
 
@@ -6427,6 +6537,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6484,6 +6595,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:4px;font-family:Verdana;fill:#cccccc">45</svg:tspan></svg:text>
+
 
 
 
@@ -6653,6 +6765,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6710,6 +6823,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">140</svg:tspan></svg:text>
+
 
 
 
@@ -6779,6 +6893,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6836,6 +6951,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -7117,6 +7233,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -7276,6 +7393,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -7355,6 +7473,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="12.168"
      x="0"
      style="font-size:5px;font-family:CourierNew-Bold;fill:#446785">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -7455,6 +7574,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -7528,6 +7648,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -7569,7 +7690,25 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
    y="-144.67902"
    ry="2.5100767e-11"
    inkscape:export-xdpi="95.852768"
-   inkscape:export-ydpi="95.852768" /></svg:g>
+   inkscape:export-ydpi="95.852768" /><svg:path
+   inkscape:connector-curvature="0"
+   style="fill:url(#linearGradient8697-0);fill-opacity:1;stroke-width:1.77299094;filter:url(#filter2568)"
+   i:knockout="Off"
+   d="m 198.36199,-70.36072 c 0,-24.15319 6.47631,-37.29354 42.23679,-43.55084 24.27835,-4.25496 55.40844,-4.78684 84.44232,0 22.93302,3.78566 42.23679,20.86811 42.23679,43.55084 V 9.3260382 c 0,23.3710348 -24.72385,54.7720248 -46.80167,46.7321148 L 233.115,24.244513 c -35.39676,-12.890174 -35.32633,69.599261 -58.64313,22.96566 -11.6584,-23.3168 -23.3168,11.6584 -51.09146,47.494353 -4.98147,6.427284 -5.8797,-7.889834 -7.20054,-12.519152 -6.18061,-21.662021 -10.05054,-35.659661 -2.29149,-67.540634 6.72661,-27.8137 28.22045,-42.48708 52.78037,-42.48708 h 31.69324 84.47358 v -10.63742 h -84.47358 z"
+   id="path7990-2"
+   sodipodi:nodetypes="sccsssscsacsccccs" /><svg:g
+   id="g2572"><svg:path
+     sodipodi:nodetypes="sccsssscsacsccccs"
+     id="path7990"
+     d="m 198.76612,-75.715498 c 0,-24.15319 6.47631,-37.293532 42.23679,-43.550832 24.27835,-4.25496 55.40844,-4.78684 84.44232,0 22.93302,3.78566 42.23679,20.868107 42.23679,43.550832 V 3.9712638 c 0,23.3710352 -24.72385,54.7720272 -46.80167,46.7321202 L 233.51914,18.88974 C 198.12237,5.9995755 198.1928,88.488996 174.876,41.855395 c -11.6584,-23.3168 -23.3168,11.6584 -51.09146,47.49436 -4.98147,6.427288 -5.8797,-7.889834 -7.20054,-12.519154 -6.18061,-21.66202 -10.05054,-35.659663 -2.29149,-67.5406302 6.72661,-27.8137078 28.22045,-42.4870878 52.78037,-42.4870878 h 31.69324 84.47359 v -10.637414 h -84.47359 z"
+     i:knockout="Off"
+     style="fill:url(#linearGradient8697);fill-opacity:1;stroke-width:1.77299094"
+     inkscape:connector-curvature="0" /><svg:path
+     id="path7994"
+     d="m 219.88452,-81.002929 c 0,-8.822793 7.07076,-15.956121 15.83098,-15.956121 8.72893,0 15.83097,7.133328 15.83097,15.956121 0,8.791518 -7.10204,15.924846 -15.83097,15.924846 -8.76022,0 -15.83098,-7.133328 -15.83098,-15.924846 z"
+     i:knockout="Off"
+     style="fill:#ffffff;stroke-width:1.77299094"
+     inkscape:connector-curvature="0" /></svg:g></svg:g>
 		<i:pgf>
 			
 			eJzUvYd++jyyP/zeAPcQEnq1TS8JmB4gCS2FJIRqCAktlN19ztW/I7libGPaOfv/PLv5JbasMhqN
