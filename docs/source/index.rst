@@ -27,7 +27,8 @@ Documentation
 About
 """""
 
-nQb8or is a way to quickly setup an environment to develop a package or application with python.
+nQb8or is a way to quickly setup an environment to develop a package or application with python.  
+
 nQb8or will
 
 * create a directory for the project
