@@ -29,12 +29,19 @@
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="python.svg"
+   sodipodi:docname="python_incubator_logo.svg"
    version="1.0"
-   inkscape:export-filename="/home/el/Documents/images/svg/Python/python-powered-portrait-50.png"
-   inkscape:export-xdpi="9"
-   inkscape:export-ydpi="9"><svg:defs
+   inkscape:export-filename="/home/su530201/PycharmProjects/make_project/docs/source/_static/logo.png"
+   inkscape:export-xdpi="95.852768"
+   inkscape:export-ydpi="95.852768"><svg:defs
    id="defs381"><svg:linearGradient
+   id="linearGradient1917"><svg:stop
+     style="stop-color:#ffc836;stop-opacity:1;"
+     offset="0"
+     id="stop1913" /><svg:stop
+     style="stop-color:#ffe873;stop-opacity:1;"
+     offset="1"
+     id="stop1915" /></svg:linearGradient><svg:linearGradient
    gradientUnits="userSpaceOnUse"
    y2="76.313133"
    x2="26.670298"
@@ -158,30 +165,48 @@
    xlink:href="#linearGradient4689"
    id="linearGradient8697"
    gradientUnits="userSpaceOnUse"
-   gradientTransform="translate(638.5845,497.4187)"
+   gradientTransform="matrix(1.772991,0,0,1.772991,61.057271,-159.16692)"
    x1="172.94208"
    y1="77.475983"
    x2="26.670298"
-   y2="76.313133" /><svg:linearGradient
-   inkscape:collect="always"
-   xlink:href="#linearGradient4671"
-   id="linearGradient8699"
-   gradientUnits="userSpaceOnUse"
-   gradientTransform="translate(638.5845,497.4187)"
-   x1="224.23996"
-   y1="144.75717"
-   x2="-65.308502"
-   y2="144.75717" /><svg:filter
-   inkscape:collect="always"
-   style="color-interpolation-filters:sRGB"
-   id="filter2835"
-   x="-0.02401851"
-   width="1.048037"
-   y="-0.023981519"
-   height="1.047963"><svg:feGaussianBlur
-     inkscape:collect="always"
-     stdDeviation="1.9772204"
-     id="feGaussianBlur2837" /></svg:filter></svg:defs><sodipodi:namedview
+   y2="76.313133" /><svg:filter
+   inkscape:label="Black Hole"
+   inkscape:menu="Morphology"
+   inkscape:menu-tooltip="Creates a black light inside and outside"
+   height="1.5"
+   width="1.5"
+   y="-0.25"
+   x="-0.25"
+   style="color-interpolation-filters:sRGB;"
+   id="filter1877"><svg:feGaussianBlur
+     stdDeviation="5"
+     in="SourceAlpha"
+     result="result1"
+     id="feGaussianBlur1865" /><svg:feComposite
+     operator="arithmetic"
+     k2="3.2"
+     k1="-1"
+     k4="-2"
+     result="result3"
+     in2="result1"
+     id="feComposite1867" /><svg:feColorMatrix
+     values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 10 0 "
+     result="result2"
+     id="feColorMatrix1869" /><svg:feComposite
+     result="fbSourceGraphic"
+     in="SourceGraphic"
+     operator="out"
+     in2="result2"
+     id="feComposite1871" /><svg:feBlend
+     mode="multiply"
+     in="result1"
+     in2="fbSourceGraphic"
+     result="result91"
+     id="feBlend1873" /><svg:feBlend
+     mode="screen"
+     in="fbSourceGraphic"
+     in2="result91"
+     id="feBlend1875" /></svg:filter></svg:defs><sodipodi:namedview
    inkscape:window-height="1025"
    inkscape:window-width="1873"
    inkscape:pageshadow="2"
@@ -191,9 +216,9 @@
    pagecolor="#ffffff"
    id="base"
    showborder="true"
-   inkscape:zoom="0.83002772"
-   inkscape:cx="309.22589"
-   inkscape:cy="210.17038"
+   inkscape:zoom="1.6600554"
+   inkscape:cx="290.67795"
+   inkscape:cy="372.04067"
    inkscape:window-x="47"
    inkscape:window-y="27"
    inkscape:current-layer="g12"
@@ -210,8 +235,8 @@
      type="xygrid"
      originx="0"
      originy="0"
-     spacingx="50"
-     spacingy="50"
+     spacingx="11.6584"
+     spacingy="3.6195385"
      color="#3f3fff"
      empcolor="#3f3fff"
      opacity="0.15"
@@ -436,7 +461,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 <cc:Work
    rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-     rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></svg:metadata></x:xmpmeta>
+     rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></svg:metadata></x:xmpmeta>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <xpacket />
 			</svg:metadata>
 		<svg:g
@@ -444,32 +469,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
    i:extraneous="self">
 				
 				
-				<svg:rect
-   style="opacity:0.8;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.5"
-   id="rect6075"
-   width="582.91998"
-   height="757.79602"
-   x="0"
-   y="-261.263" /><svg:g
-   id="g8691"
-   transform="matrix(1.772991,0,0,1.772991,-1062.907,-953.6594)"
-   style="opacity:0.756;filter:url(#filter2835)"><svg:path
-     id="path7990"
-     d="M 716.25486,544.48686 C 716.25486,530.86401 719.90762,523.45261 740.0772,519.92338 C 753.77064,517.5235 771.32859,517.22351 787.70424,519.92338 C 800.63889,522.05856 811.52658,531.69338 811.52658,544.48686 L 811.52658,589.43168 C 811.52658,602.61338 800.95652,613.41284 787.70424,613.41284 L 740.0772,613.41284 C 723.9133,613.41284 710.29045,627.1945 710.29045,642.77608 L 710.29045,664.33971 L 693.9148,664.33971 C 680.06254,664.33971 671.99824,654.35198 668.61017,640.3762 C 664.03981,621.60067 664.23392,610.41299 668.61017,592.43153 C 672.4041,576.74408 684.52703,568.46802 698.37928,568.46802 L 716.25486,568.46802 L 763.89954,568.46802 L 763.89954,562.46832 L 716.25486,562.46832 L 716.25486,544.48686 L 716.25486,544.48686 z "
-     i:knockout="Off"
-     style="fill:url(#linearGradient8697);fill-opacity:1" /><svg:path
-     id="path7992"
-     d="M 811.52658,688.32087 C 811.52658,701.94372 799.70364,708.84338 787.70424,712.28438 C 769.6522,717.47236 755.16469,716.67828 740.0772,712.28438 C 727.47783,708.61398 716.25486,701.11435 716.25486,688.32087 L 716.25486,643.37605 C 716.25486,630.4414 727.03667,619.39489 740.0772,619.39489 L 787.70424,619.39489 C 803.56816,619.39489 817.49099,605.68381 817.49099,589.43168 L 817.49099,568.46802 L 835.34893,568.46802 C 849.21882,568.46802 855.74791,578.77339 859.17127,592.43153 C 863.93574,611.40117 864.14749,625.5887 859.17127,640.3762 C 854.35386,654.74019 849.20118,664.33971 835.34893,664.33971 L 811.52658,664.33971 L 763.89954,664.33971 L 763.89954,670.33941 L 811.52658,670.33941 L 811.52658,688.32087 z "
-     i:knockout="Off"
-     style="fill:url(#linearGradient8699);fill-opacity:1" /><svg:path
-     id="path7994"
-     d="M 728.16603,541.50465 C 728.16603,536.52843 732.15407,532.5051 737.095,532.5051 C 742.01828,532.5051 746.02396,536.52843 746.02396,541.50465 C 746.02396,546.46323 742.01828,550.48656 737.095,550.48656 C 732.15407,550.48656 728.16603,546.46323 728.16603,541.50465 z "
-     i:knockout="Off"
-     style="fill:#ffffff" /><svg:path
-     id="path7996"
-     d="M 781.75748,691.30308 C 781.75748,686.3445 785.76316,682.32117 790.68645,682.32117 C 795.62738,682.32117 799.61541,686.3445 799.61541,691.30308 C 799.61541,696.2793 795.62738,700.30263 790.68645,700.30263 C 785.76316,700.30263 781.75748,696.2793 781.75748,691.30308 z "
-     i:knockout="Off"
-     style="fill:#ffffff" /></svg:g><svg:g
+				<svg:g
    style="display:none"
    display="none"
    i:rgbTrio="#4F008000FFFF"
@@ -810,6 +810,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -867,6 +868,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">10</svg:tspan></svg:text>
+
 
 
 
@@ -946,6 +948,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1003,6 +1006,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">40</svg:tspan></svg:text>
+
 
 
 
@@ -1082,6 +1086,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1139,6 +1144,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="4"
      y="0"
      x="0">45</svg:tspan></svg:text>
+
 
 
 
@@ -1318,6 +1324,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1375,6 +1382,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">140</svg:tspan></svg:text>
+
 
 
 
@@ -1454,6 +1462,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -1511,6 +1520,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -1802,6 +1812,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -1966,6 +1977,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2045,6 +2057,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="12.168"
      x="0">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -2155,6 +2168,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -2222,6 +2236,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">designed by Pollenation Internet Ltd</svg:tspan></svg:text>
+
 
 
 
@@ -2604,6 +2619,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2661,6 +2677,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">10</svg:tspan></svg:text>
+
 
 
 
@@ -2732,6 +2749,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2789,6 +2807,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">40</svg:tspan></svg:text>
+
 
 
 
@@ -2860,6 +2879,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -2917,6 +2937,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:4px;font-family:Verdana;fill:#cccccc">45</svg:tspan></svg:text>
+
 
 
 
@@ -3088,6 +3109,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -3145,6 +3167,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">140</svg:tspan></svg:text>
+
 
 
 
@@ -3216,6 +3239,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -3273,6 +3297,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -3556,6 +3581,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -3716,6 +3742,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -3795,6 +3822,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="12.168"
      x="0"
      style="font-size:5px;font-family:CourierNew-Bold;fill:#446785">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -3897,6 +3925,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -3964,6 +3993,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#b4b4b4">designed by Pollenation Internet Ltd</svg:tspan></svg:text>
+
 
 
 
@@ -4349,6 +4379,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4406,6 +4437,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">10</svg:tspan></svg:text>
+
 
 
 
@@ -4481,6 +4513,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4538,6 +4571,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">40</svg:tspan></svg:text>
+
 
 
 
@@ -4613,6 +4647,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4670,6 +4705,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="4"
      y="0"
      x="0">45</svg:tspan></svg:text>
+
 
 
 
@@ -4845,6 +4881,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -4902,6 +4939,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">140</svg:tspan></svg:text>
+
 
 
 
@@ -4977,6 +5015,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -5034,6 +5073,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="0"
      x="0">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -5321,6 +5361,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -5483,6 +5524,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -5562,6 +5604,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      font-size="5"
      y="12.168"
      x="0">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -5668,6 +5711,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -5744,6 +5788,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -5776,7 +5821,24 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
    x1="214.89999"
    display="inline"
    i:knockout="Off" />
-				</svg:g><svg:g
+				</svg:g><svg:path
+   inkscape:connector-curvature="0"
+   style="fill:url(#linearGradient8697);fill-opacity:1;stroke-width:1.77299094"
+   i:knockout="Off"
+   d="m 198.76612,-75.715498 c 0,-24.15319 6.47631,-37.293532 42.23679,-43.550832 24.27835,-4.25496 55.40844,-4.78684 84.44232,0 22.93302,3.78566 42.23679,20.868107 42.23679,43.550832 V 3.9712638 c 0,23.3710352 -24.72385,54.7720272 -46.80167,46.7321202 L 233.51914,18.88974 C 198.12237,5.9995755 198.1928,88.488996 174.876,41.855395 c -11.6584,-23.3168 -23.3168,11.6584 -51.09146,47.49436 -4.98147,6.427288 -5.8797,-7.889834 -7.20054,-12.519154 -6.18061,-21.66202 -10.05054,-35.659663 -2.29149,-67.5406302 6.72661,-27.8137078 28.22045,-42.4870878 52.78037,-42.4870878 h 31.69324 84.47359 v -10.637414 h -84.47359 z"
+   id="path7990"
+   sodipodi:nodetypes="sccsssscsacsccccs" /><svg:path
+   inkscape:connector-curvature="0"
+   style="fill:#ffe873;fill-opacity:1;stroke-width:1.77299094"
+   i:knockout="Off"
+   d="m 396.3856,289.01348 c -62.62488,38.70431 -154.59916,43.60746 -209.8512,0 C 131.28236,245.40602 116.584,191.08292 116.93446,147.00381 116.584,111.8058 128.2424,100.1474 160.14645,54.566608 c 10.55671,-15.082192 15.66872,39.8584 28.76258,25.437631 21.29925,-23.457679 20.94217,-49.807244 44.25897,-49.807238 23.3168,6e-6 92.42368,46.633597 116.15508,25.494184 18.87655,-16.81481 28.93379,-37.15259 28.93379,-51.7199212 V -33.197117 C 443.0192,6.8802016 466.336,74.49892 466.336,144.44932 c 0,46.63361 -7.32552,105.85985 -69.9504,144.56416 z"
+   id="path7992"
+   sodipodi:nodetypes="zzcsssssccz" /><svg:path
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff;stroke-width:1.77299094"
+   i:knockout="Off"
+   d="m 219.88452,-81.002929 c 0,-8.822793 7.07076,-15.956121 15.83098,-15.956121 8.72893,0 15.83097,7.133328 15.83097,15.956121 0,8.791518 -7.10204,15.924846 -15.83097,15.924846 -8.76022,0 -15.83098,-7.133328 -15.83098,-15.924846 z"
+   id="path7994" /><svg:g
    display="none"
    i:rgbTrio="#4F008000FFFF"
    i:dimmedPercent="100"
@@ -6112,6 +6174,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6169,6 +6232,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">10</svg:tspan></svg:text>
+
 
 
 
@@ -6236,6 +6300,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6293,6 +6358,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">40</svg:tspan></svg:text>
+
 
 
 
@@ -6360,6 +6426,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6417,6 +6484,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:4px;font-family:Verdana;fill:#cccccc">45</svg:tspan></svg:text>
+
 
 
 
@@ -6584,6 +6652,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6641,6 +6710,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">140</svg:tspan></svg:text>
+
 
 
 
@@ -6708,6 +6778,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -6765,6 +6836,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="0"
      x="0"
      style="font-size:5px;font-family:Verdana;fill:#446785">Flux Regular</svg:tspan></svg:text>
+
 
 
 
@@ -7044,6 +7116,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 							</svg:g>
 						</svg:switch>
 						
@@ -7202,6 +7275,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					<svg:switch
@@ -7281,6 +7355,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
      y="12.168"
      x="0"
      style="font-size:5px;font-family:CourierNew-Bold;fill:#446785">PANTONE 7405 </svg:tspan></svg:text>
+
 
 
 
@@ -7379,6 +7454,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -7451,6 +7527,7 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
 
 
 
+
 						</svg:g>
 					</svg:switch>
 					
@@ -7483,22 +7560,16 @@ XYq7FXYq7FXYq7FXYq7FXYq7FXYq7FX/2Q==</xapGImg:image>
    display="inline"
    i:knockout="Off"
    style="fill:none;stroke:#cccccc;stroke-width:1.01240003;stroke-linecap:round;stroke-linejoin:round;display:inline" />
-				</svg:g><svg:g
-   id="g2528"
-   transform="matrix(0.52754213,0,0,0.52754213,149.39994,2.35602)"
-   style="opacity:1"><svg:g
-     id="g2526"
-     style=""><svg:g
-       id="g2524"
-       style=""><svg:path
-         id="path2520"
-         d="M 256,501 C 126.4,501 21,398.8 21,273.2 21,185.4 71.6,106.9 153.1,68.3 c 10.2,-4.8 22.4,-0.5 27.2,9.7 4.8,10.2 0.5,22.4 -9.7,27.2 -67.1,31.8 -108.7,96.1 -108.7,168 0,103.1 87.1,187 194.1,187 107,0 194.1,-83.9 194.1,-187 0,-72.4 -44,-138.9 -112.2,-169.5 C 327.6,99.1 323,87 327.6,76.7 332.2,66.4 344.3,61.8 354.6,66.5 437.5,103.6 491,184.8 491,273.2 491,398.8 385.6,501 256,501 Z"
-         inkscape:connector-curvature="0"
-         style="" /><svg:path
-         id="path2522"
-         d="m 256,287.9 c -11.3,0 -20.4,-9.1 -20.4,-20.4 V 31.4 c 0,-11.3 9.2,-20.4 20.4,-20.4 11.3,0 20.4,9.1 20.4,20.4 v 236.1 c 0,11.3 -9.1,20.4 -20.4,20.4 z"
-         inkscape:connector-curvature="0"
-         style="" /></svg:g></svg:g></svg:g></svg:g>
+				</svg:g><svg:rect
+   style="opacity:0.77100004;vector-effect:none;fill:none;fill-opacity:1;stroke:none;stroke-width:0.06417947;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+   id="rect1940"
+   width="396.38559"
+   height="489.6528"
+   x="93.267197"
+   y="-144.67902"
+   ry="2.5100767e-11"
+   inkscape:export-xdpi="95.852768"
+   inkscape:export-ydpi="95.852768" /></svg:g>
 		<i:pgf>
 			
 			eJzUvYd++jyyP/zeAPcQEnq1TS8JmB4gCS2FJIRqCAktlN19ztW/I7libGPaOfv/PLv5JbasMhqN

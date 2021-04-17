@@ -1,4 +1,4 @@
-make_project modules
+nQb8or modules
 =====================================
 
 .. toctree::

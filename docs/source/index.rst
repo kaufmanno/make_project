@@ -1,4 +1,4 @@
-.. make_project documentation master file.
+.. nQb8or documentation master file.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
@@ -8,14 +8,14 @@ Documentation
 
     <div class="banner">
         <h2>Start developping a python package or application in a minute</h2>
-        <a href="./examples/index.html"><img src="_static/banner_small.png" alt="make_project" width="100%"/></a>
+        <a href="./examples/index.html"><img src="_static/banner_small.png" alt="nQb8or" width="100%"/></a>
     </div>
 
 .. |GPLv3| image:: https://img.shields.io/badge/License-GPLv3-blue.svg
    :target: https://www.gnu.org/licenses/gpl-3.0
 
-.. |rtd| image:: https://readthedocs.org/projects/make-project/badge/?version=latest
-   :target: https://make-project.readthedocs.io/en/latest/?badge=latest
+.. |rtd| image:: https://readthedocs.org/projects/nQb8or/badge/?version=latest
+   :target: https://nQb8or.readthedocs.io/en/latest/?badge=latest
    :alt: Documentation Status
 
 +----------------------+------------------------+
@@ -30,8 +30,8 @@ Documentation
 About
 """""
 
-make_project is a way to quickly setup a environment to develop a project with python.
-make_project will
+nQb8or is a way to quickly setup a environment to develop a project with python.
+nQb8or will
 
 * create a directory for the project
 * make it a git repository
@@ -45,7 +45,7 @@ make_project will
 * activate the virtual environment
  
 
-make_project uses the config.sh script to to setup the main project properties such as its name or remote git repository.
+nQb8or uses the config.sh script to to setup the main project properties such as its name or remote git repository.
 
 Author
 """"""
