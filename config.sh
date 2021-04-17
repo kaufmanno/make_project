@@ -1,7 +1,7 @@
 # CONFIGURE YOUR PROJECT SPECS HERE! 
 PROJECT="nQb8or"
 AUTHOR="O. KAUFMANN"
-CONTRIBUTORS=" "
+CONTRIBUTORS="Be the first one !"
 YEAR="$(date +%Y)"
 VERSION="0.1"
 REPO="github.com:kaufmanno/$PROJECT"
