@@ -4,7 +4,7 @@ First Steps
 Hello World
 -----------
 
-Before using nQb8or, please clone the repository and install the prerequisites as described in the [installation section](description.rst). 
+Before using nQb8or, please clone the repository and install the prerequisites as described in the installation section. 
 Once this is done, you may configure your new project by editing the config.sh file. change the project name, author, remote repository etc.
 If you want to use a remote repository, it is the right time to create it (create an empty one, all the required files to start your project will be added by nQb8or).
 
