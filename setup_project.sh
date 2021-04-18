@@ -53,7 +53,7 @@ if [ $ACTIVATEPIPENV = 1 ]; then
     python3 -m pipenv lock -r > requirements.txt
     git add Pipfile.lock requirements.txt
     echo -e "\n${k}. Virtualenv created\n"
-    k=$k+1
+    (( k = k+1 ))
 fi
 
 # Adapt and add files
