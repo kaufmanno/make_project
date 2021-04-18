@@ -1,7 +1,7 @@
 # nQb8or  
 ### O. KAUFMANN, 2021.  
 
-nQb8or (pronounced as "incubator") is a way to quickly setup an environment to develop a package or application with python under linux using bas shell scripts.
+nQb8or (pronounced as "incubator") is a way to quickly setup an environment to develop a package or application with python under linux using bash shell scripts.
 
 [![Documentation](https://readthedocs.org/projects/nqb8or/badge/?version=latest)](https://nqb8or.readthedocs.io/en/latest/?badge=latest
 )
