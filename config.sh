@@ -1,7 +1,7 @@
 # CONFIGURE YOUR PROJECT SPECS HERE! 
-PROJECT="nQb8or"
+PROJECT="NoBootsOn"
 AUTHOR="O. KAUFMANN"
-CONTRIBUTORS="Be the first one !"
+CONTRIBUTORS="Be the first one..."
 YEAR="$(date +%Y)"
 VERSION="0.1"
 REPO="github.com:kaufmanno/$PROJECT"
@@ -11,4 +11,4 @@ ACTIVATEPIPENV=1
 CLEANUP=1
 ENTERPROJECT=1
 RTDNAME=${PROJECT//_/-}
-RTDNAME="${RTDNAME,,} # convert to lowercase
+RTDNAME="${RTDNAME,,}" # convert to lowercase
