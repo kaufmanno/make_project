@@ -47,6 +47,9 @@ This command with also make a commit and push it to your remote repository.
 If you want to share your documentation on the readthedocs.org website, sign-in on that website and configure a build pointing to your remote repository (you may use a webhookfor automated builts).
 The .readthedocs.yaml file in the project directory is a configuration file that may be edited for tuning the built.
 
+.. note:: By default, the conf.py file is set to run each example notebook when building the docs. you may change the nbsphinx_execute to 'auto' or 'never instead of 'always' depending on your needs. Be aware that the docs directory contains a requirements.txt that can be used to build the documentation on the readthedocs.org website. You will have to specify the relative path to that file in the advanced settings under the Admin section of the readthedocs interface. By default the update_requirements.sh script makes a copy of the project requirements.txt in the docs. I you want to alter this, just comment the cp line in update_requirements.sh.
+
+
 
 Start developping your project
 ------------------------------
