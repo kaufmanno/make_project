@@ -4,7 +4,8 @@ First Steps
 TL;DR
 -----
 
-After installation, edit config.sh then type :code:`. hatching` in the terminal. When the process is finished, type :code:`. quickstart.sh'. You're all set!  
+After installation, edit config.sh then type :code:`. hatching` in the terminal.
+When the process is finished, type :code:`. quickstart.sh`. You're all set!  
 
 Hello World
 -----------
