@@ -1,5 +1,5 @@
 # CONFIGURE YOUR PROJECT SPECS HERE! 
-PROJECT="NoBootsOn"
+PROJECT="NewProject"
 AUTHOR="O. KAUFMANN"
 CONTRIBUTORS="Be the first one..."
 YEAR="$(date +%Y)"
