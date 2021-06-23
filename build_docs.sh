@@ -4,11 +4,11 @@ ULD="$CWD/uml_diagrams"
 
 . test_code.sh
 cp "$CWD/definitions.py" "$DCD/source/definitions.py" # for publication on https://readthedocs.org
-cd "$ULD"
+cd "$ULD" || exit 1
 python3 update_uml_in_docs.py
-cd "$DCD"
+cd "$DCD" || exit 1
 make html
-cd "$CWD"
+cd "$CWD" || exit 1
 firefox "file://$DCD/build/html/index.html"
 git add "$DCD/*"
 git commit -m "Build docs"

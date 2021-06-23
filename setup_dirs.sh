@@ -7,8 +7,8 @@ DCPD="$CWD/dynamic_components"
 echo "Standard project dynamic components directory: $DCPD"
 PJD="$(dirname "$CWD")/${PROJECT}"  # Project directory
 echo "Creating project ${PROJECt} in $PJD"
-mkdir -p "$PJD"
-cd "$PJD"
+mkdir -p "$PJD" || exit 1
+cd "$PJD" || exit 1
 TPD="$PJD/tmp"
-mkdir -p "$TPD"
+mkdir -p "$TPD" || exit 1
 

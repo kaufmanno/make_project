@@ -58,10 +58,10 @@ fi
 
 # Adapt and add files
 ##########################################################################################
-cd "$CWD"
+cd "$CWD" || exit 1
 . adapt_files.sh $k
 k=$?
-cd "$PJD"
+cd "$PJD" || exit 1
 
 # Add last files to git and make an initial commit
 ##########################################################################################

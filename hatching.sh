@@ -13,7 +13,7 @@ if [[ "$CREATE" == "Yes" ]]; then
     echo -e "\nStarting project creation...\n"
     rm -rf "../$PROJECT"
     bash setup_project.sh
-    cd "$PJD"
+    cd "$PJD" || exit 1
     CREATE=""
     confirm "You are about to push your first commit to git@$REPO.git\nYou should create this repository if it does not exist yet. Files already on the repository will be overwritten." "No" CREATE
     if [[ "$CREATE" == "Yes" ]]; then 
