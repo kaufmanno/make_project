@@ -67,7 +67,7 @@ cd "$PJD" || exit 1
 ##########################################################################################
 git add .gitignore .env .readthedocs.yaml build_docs.sh core/* tests/* uml_diagrams/*
 
-git commit -m 'Initial commit with make_project'
+git commit -m 'Initial commit with nQb8tor'
 
 echo -e "\n${k}. Initial commit done!\n"
 ((k = k + 1))

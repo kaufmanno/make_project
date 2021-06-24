@@ -64,7 +64,6 @@ done
 echo -e "\n${k}. Default static files copied\n"
 ((k = k + 1))
 
-
 # Process dynamic content
 # Update README.md file
 ##########################################################################################
@@ -102,14 +101,18 @@ declare -a no_specs=("none")
 declare -a docs_specs=("none" "docs")
 
 if item_in_array docs_specs $spec; then 
-    declare -a FileParts=("docs/source/conf.py" "docs/source/index.rst" "docs/source/modules.rst" "docs/source/first_steps.rst" "definitions.py")
+    declare -a FileParts=("docs/source/conf.py" "docs/source/index.rst" "docs/source/modules.rst" "docs/source/first_steps.rst" "docs/source/core.rst" "tests/context.py" "tests/test_core.py" "uml_diagrams/uml_diagrams_in_docs.txt" "definitions.py")
 fi
 if item_in_array no_specs $spec; then
    FileParts+=("definitions.py")
 fi
 
 mkdir -p "$TPD/docs/source"
-mkdir -p "$PJD/docs/source"
+# mkdir -p "$PJD/docs/source" # should already be present
+mkdir -p "$TPD/tests"
+mkdir -p "$PJD/tests"
+mkdir -p "$TPD/uml_diagrams" 
+# mkdir -p "$PJD/uml_diagrams" # should already be present
 
 for i in ${FileParts[@]}; do
     cp  "$DCPD/$i" "$TPD/$i"
@@ -130,6 +133,17 @@ cp "$TPD/installation.rst" "$PJD/docs/source"
 git add "$PJD/docs/source/installation.rst" "$PJD/docs/source/description.rst"
 
 echo -e "\n${k}. Default dynamic files adapted and created.\n"
+((k = k + 1))
+
+# Rename core directory
+##########################################################################################
+
+mv "$PJD/core" "$PJD/${PROJECT}"
+
+echo -e "\nmv $PJD/core $PJD/${PROJECT}\n" 
+
+echo -e "\n${k}. Renamed core directory.\n" 
+
 ((k = k + 1))
 
 return $k
