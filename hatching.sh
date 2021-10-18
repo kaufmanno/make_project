@@ -15,18 +15,13 @@ if [[ "$CREATE" == "Yes" ]]; then
     bash setup_project.sh
     cd "$PJD" || exit 1
     CREATE=""
-    confirm "You are about to push your first commit to git@$REPO.git\nYou should create this repository if it does not exist yet. Files already on the repository will be overwritten." "No" CREATE
+    confirm "You are about to push your first commit to git@$REPO.git\nYou might have to create this repository first if it does not exist yet. Files already on the repository will be overwritten." "No" CREATE
     if [[ "$CREATE" == "Yes" ]]; then 
         echo -e "\nset origin and push to remote\n"
         git remote add origin "git@$REPO.git"
-        confirm "You are about to try to force the push. Files already on the repository will be overwritten." "No" FORCE 
-        if [["$FORCE" == "No" ]]; then
-            git push -u origin master
-        else
-            git push -u -f origin master || git push -u origin master
-        fi
+        git push -u -f origin master
         git checkout -b develop
-	git branch --set-upstream-to=origin/develop develop
+	git push --set-upstream origin --force develop
     else
 	echo -e "\nRemote was not set.\n"
     fi
