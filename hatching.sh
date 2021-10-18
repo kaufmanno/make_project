@@ -31,6 +31,10 @@ if [[ "$CREATE" == "Yes" ]]; then
     echo -e "1. Sign-in the readthedocs.org and import the project from its repo\n(you may configure a webhook to your remote repository or use manual build).\n"
     echo -e "2. Build within readthedocs.org and check that it is passing\n"
     echo -e "Rem: You may configure the documentation build by altering the .readthedocs.yaml file" 
+   
+    echo -e "\nSwitched to develop branch...\nCurrent status:\n"
+    git status
+
     # Enter project
     ##########################################################################################
     if [ $ENTERPROJECT = 1 ]; then
@@ -38,8 +42,6 @@ if [[ "$CREATE" == "Yes" ]]; then
         if [ $ACTIVATEPIPENV = 1 ]; then
             python3 -m pipenv shell
         fi
-        echo -e "\nSwitched to develop branch...\nCurrent status:\n"
-        git status
     fi 
 else
     echo -e "\nProject creation aborted !\n"
