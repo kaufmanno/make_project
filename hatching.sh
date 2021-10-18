@@ -21,6 +21,12 @@ if [[ "$CREATE" == "Yes" ]]; then
         git remote add origin "git@$REPO.git"
         git push -u -f origin master
         git checkout -b develop
+        echo -e "\nSwitched to develop branch...\nCurrent status:\n"
+        git rm core/__init__.py
+        git rm core/core.py
+        git add "$PROJECT"
+        git commit -m "Updates package name from core to $PROJECT"
+        git status
 	git push --set-upstream origin --force develop
     else
 	echo -e "\nRemote was not set.\n"
@@ -31,9 +37,6 @@ if [[ "$CREATE" == "Yes" ]]; then
     echo -e "1. Sign-in the readthedocs.org and import the project from its repo\n(you may configure a webhook to your remote repository or use manual build).\n"
     echo -e "2. Build within readthedocs.org and check that it is passing\n"
     echo -e "Rem: You may configure the documentation build by altering the .readthedocs.yaml file" 
-   
-    echo -e "\nSwitched to develop branch...\nCurrent status:\n"
-    git status
 
     # Enter project
     ##########################################################################################
