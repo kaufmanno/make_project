@@ -19,7 +19,12 @@ if [[ "$CREATE" == "Yes" ]]; then
     if [[ "$CREATE" == "Yes" ]]; then 
         echo -e "\nset origin and push to remote\n"
         git remote add origin "git@$REPO.git"
-        git push -u origin master
+        confirm "You are about to try to force the push. Files already on the repository will be overwritten." "No" FORCE 
+        if [["$FORCE" == "No" ]]; then
+            git push -u origin master
+        else
+            git push -u -f origin master || git push -u origin master
+        fi
         git checkout -b develop
 	git branch --set-upstream-to=origin/develop develop
     else
