@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 pbr = "*"
+twine = "*"
 
 [packages]
 ipykernel = "*"

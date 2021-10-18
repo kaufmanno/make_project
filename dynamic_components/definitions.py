@@ -7,4 +7,4 @@ RELEASE = VERSION + u'.1a'
 LICENSE = u'GPLv3'
 SHORT_DESCRIPTION = u'@@@ Please insert a short description here...'
 ROOT_DIR = Path(__file__).parent.absolute()
-URL = f'https://github.com/kaufmanno/{PROJECT}'
+URL = u'{repoaddress} + f'/{PROJECT}'

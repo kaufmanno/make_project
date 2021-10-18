@@ -19,7 +19,9 @@ if [[ "$CREATE" == "Yes" ]]; then
     if [[ "$CREATE" == "Yes" ]]; then 
         echo -e "\nset origin and push to remote\n"
         git remote add origin "git@$REPO.git"
-        git push -u -f origin master
+        git push -u origin master
+        git checkout -b develop
+	git branch --set-upstream-to=origin/develop develop
     else
 	echo -e "\nRemote was not set.\n"
     fi
@@ -36,6 +38,8 @@ if [[ "$CREATE" == "Yes" ]]; then
         if [ $ACTIVATEPIPENV = 1 ]; then
             python3 -m pipenv shell
         fi
+        echo -e "\nSwitched to develop branch...\nCurrent status:\n"
+        git status
     fi 
 else
     echo -e "\nProject creation aborted !\n"

@@ -10,6 +10,8 @@ cd "$DCD" || exit 1
 make html
 cd "$CWD" || exit 1
 firefox "file://$DCD/build/html/index.html"
+. update_requirements.sh
+
 git add "$DCD/*"
 git commit -m "Build docs"
 git push

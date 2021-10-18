@@ -9,4 +9,5 @@ make_docs.sh		Makes the sphinx documentation
 quickstart.sh		Helps to setup a project by building the sphinx docs and updating the project requirements
 test_code.sh		Runs unit tests
 update_requirements.sh	Updates the requirements.txt from the Pipfile.lock
+dist.sh			Publishes a package to TestPyPI or PyPI
 utils.sh		A set of utility functions called internally by other scripts

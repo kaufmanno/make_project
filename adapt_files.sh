@@ -75,7 +75,7 @@ if item_in_array all_specs $spec; then
                           "CONTRIBUTING.md" "LICENSE.md" "CITATION.md" "CONTACT.md")
 
     declare -a Substitutes=("{project}" "{author}" "{year}" "{version}" "{repo}" "{remotemaster}" 
-                            "{contributors}" "{rtdname}")
+                            "{repoaddress}" "{contributors}" "{rtdname}")
 
     # Iterate the string array using for loop
     for i in ${FileParts[@]}; do
@@ -104,7 +104,7 @@ if item_in_array docs_specs $spec; then
     declare -a FileParts=("docs/source/conf.py" "docs/source/index.rst" "docs/source/modules.rst" "docs/source/first_steps.rst" "docs/source/core.rst" "tests/context.py" "tests/test_core.py" "uml_diagrams/uml_diagrams_in_docs.txt" "definitions.py")
 fi
 if item_in_array no_specs $spec; then
-   FileParts+=("definitions.py")
+   FileParts+=("definitions.py" "setup.cfg")
 fi
 
 mkdir -p "$TPD/docs/source"

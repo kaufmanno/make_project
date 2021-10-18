@@ -25,7 +25,7 @@ project = u'{project}'
 copyright = u'{year}, {author}'
 
 author = u'{author}'
-
+repoaddress = u'{repoaddress}'
 
 # The short X.Y version
 version = VERSION
