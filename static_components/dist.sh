@@ -2,7 +2,7 @@
 . utils.sh
 
 # publi
-confirm "Publish to Pypi" "No" PUBLISHTOPIPY
+confirm "Publish to Pypi" "No" PUBLISHTOPYPI
 if [[ "$PUBLISHTOPYPI" == "Yes" ]]; then  
     echo -e "\nPublishing to PyPI...\n"
     PACKAGEINDEX=""
