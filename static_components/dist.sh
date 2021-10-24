@@ -1,6 +1,12 @@
 #!/bin/bash
 . utils.sh
 
+# tag
+echo -e "Last commit is $(git describe --tags)"
+echo -e "Current tag is $(git describe --tags --abbrev=0)" 
+read -r -p "What will be the tag of this new version? " NEWTAG
+git tag -a $NEWTAG -m "Version $NEWTAG"
+
 # publi
 confirm "Publish to Pypi" "No" PUBLISHTOPYPI
 if [[ "$PUBLISHTOPYPI" == "Yes" ]]; then  
