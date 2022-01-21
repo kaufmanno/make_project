@@ -27,6 +27,7 @@ if [[ "$CREATE" == "Yes" ]]; then
         git add "$PROJECT"
         git commit -m "Updates package name from core to $PROJECT"
         git status
+	git tag "$VERSION"
 	git push --set-upstream origin --force develop
     else
 	echo -e "\nRemote was not set.\n"
