@@ -16,7 +16,6 @@ echo -e "Last commit is $(git describe --tags)"
 echo -e "Current tag is $(git describe --tags --abbrev=0)" 
 read -r -p "What will be the tag of this new version? " NEWTAG
 git tag -a $NEWTAG -m "Version $NEWTAG"
-git push --tags
 
 # publi
 confirm "Publish to Pypi" "No" PUBLISHTOPYPI
@@ -33,11 +32,16 @@ confirm "Update the docs" "No" UPDATEDOCS
 if [[ "$UPDATEDOCS" == "Yes" ]]; then  
    
     bash build_docs.sh || exit 1
+    git tag -d $NEWTAG
 else
     # update requirements.txt only
     echo -e "\nUpdating requirements.txt !\n"
     bash update_requirements.sh || exit 1
 fi
+
+# set tag
+git tag -a $NEWTAG -m "Version $NEWTAG"
+git push --tags
 
 # create wheel
 python setup.py bdist_wheel || exit 1
