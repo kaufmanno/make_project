@@ -120,6 +120,8 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+html_favicon = "_static/favicon.ico"
 html_logo = "_static/logo.png"
 html_theme_options = {
     'logo_only': False,
